@@ -1,0 +1,19 @@
+{
+    "env": {
+        "node": true
+    },
+    "settings": {
+        "import/internal-regex": "^@api/",
+        "import/resolver": {
+            "alias": {
+                extensions: ['.js', '.jsx'],
+                map: [
+                    ["@api", "./api"]
+                ]
+            }
+        }
+    },
+    "globals": {
+        "__DEV__": false
+    }
+}

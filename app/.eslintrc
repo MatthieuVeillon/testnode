@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true
+    },
+    "settings": {
+        "import/internal-regex": "^@app/",
+        "import/resolver": {
+            "alias": {
+                extensions: ['.js', '.jsx'],
+                map: [
+                    ["@app", "./app"]
+                ]
+            }
+        }
+    },
+    "globals": {
+        "__DEV__": false
+    }
+}
